@@ -9,13 +9,13 @@ You need Minisat folder in your working folder to run this code. Copy the Minisa
 folder and generate the library using cmake. The CMakeList.txt is present in the Minisat
 folder. Then use the following command to generate the execuatable.
 command is
-cmake ../
-make
-./prj
+* cmake ../
+* make
+* ./prj
 
 * Sample Output
-*V 5
-*E {<1,4>,<4,0>,<3,1>,<3,2>,<3,0>,<4,3>,<2,1>}
-*CNF-SAT-VC: 0,1,3
-*APPROX-VC-1: 0,1,3
-*APPROX-VC-2: 1,2,3,4
+* V 5
+* E {<1,4>,<4,0>,<3,1>,<3,2>,<3,0>,<4,3>,<2,1>}
+* CNF-SAT-VC: 0,1,3
+* APPROX-VC-1: 0,1,3
+* APPROX-VC-2: 1,2,3,4
